@@ -1,4 +1,7 @@
-# Hello World with React boilerplate
+# Traffic Light on React 2nd Option
+
+<img src="src/img/trafficLight_2ndOption.jpg">
+
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
   </a>

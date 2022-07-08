@@ -2,6 +2,11 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("/src/img/rush_hour_traffic.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -11,28 +16,27 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
 }
 
 .lighBox{
-    background: #303030;
+    background: #fff;
     width: 180px;
     height: 450px;
     position: relative;
-    border: solid 5px #000;
+    border: solid 3px #000;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 400px;
+    margin-top: 200px;
     border-radius: 20px;
 }
 
 .lighBox:after{
-    background: #000;
+    background: #fff;
     content: "";
     width: 40px;
     height: 1000px;
-    margin-left: 46px;
+    margin-left: 50px;
     position: absolute;
     top: -950px;
     z-index: -1;
@@ -44,10 +48,10 @@ body {
     height: 0;
     position: absolute;
     top: 20px;
-    left: -35px;
+    left: -33px;
     border-right: solid 30px transparent;
     border-left: solid 30px transparent;
-    border-top: solid 90px #000;
+    border-top: solid 90px #fff;
     border-radius: 10px;
     z-index: -1;
 }
@@ -67,7 +71,6 @@ body {
     height: 120px;
     border-radius: 50%;
     top: 30px;
-    left: 30px;
     margin: 10px;
     border: 2px solid #000;
 }
@@ -92,7 +95,6 @@ body {
     height: 120px;
     border-radius: 50%;
     top: 145px;
-    left: 30px;
     margin: 10px;
     border: 2px solid #000;
 }
@@ -105,7 +107,6 @@ body {
     height: 120px;
     border-radius: 50%;
     top: 270px;
-    left: 30px;
     margin: 10px;
     border: 2px solid #000;
 }
@@ -117,7 +118,6 @@ body {
     height: 120px;
     border-radius: 50%;
     top: 270px;
-    left: 30px;
     margin: 10px;
     border: 2px solid #000;
 }
@@ -130,7 +130,6 @@ body {
     height: 120px;
     border-radius: 50%;
     top: 270px;
-    left: 30px;
     margin: 10px;
     border: 2px solid #000;
 }
